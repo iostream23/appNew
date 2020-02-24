@@ -1,0 +1,21 @@
+{
+  "name": "appbase-electron-version101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package-win": "electron-packager . appbase --asar --platform=win32 --arch=ia32 --icon=icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"appbase\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.1"
+  },
+  "dependencies": {
+    "electron-packager": "^14.2.1",
+    "electron-winstaller": "^4.0.0",
+    "mssql": "^6.1.0"
+  }
+}
