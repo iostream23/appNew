@@ -1,6 +1,6 @@
 {
   "name": "appbase-electron-version101",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -8,12 +8,11 @@
     "start": "electron .",
     "package-win": "electron-packager . appbase --asar --platform=win32 --arch=ia32 --icon=icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"appbase\""
   },
-  "author": "",
-  "license": "ISC",
-  "repository" : {
-    "type" : "git",
-    "url": "ssh://git@github.com/iostream23/appNew.git",
-    "directory": "packages/name"
+  "author": "kingasatur",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iostream23/appNew.git"
   },
   "devDependencies": {
     "electron": "^8.0.1"
